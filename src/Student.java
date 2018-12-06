@@ -20,6 +20,7 @@ public class Student {
 
     public String getName() { return this.name; }
     public String getGrade() { return this.grade; }
+    public int[] getTests() { return this.tests; }
 
     public void setName( String name ) { this.name = name; }
     public void setGrade( String grade ) { this.grade = grade; }
